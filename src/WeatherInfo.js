@@ -14,6 +14,7 @@ export default function WeatherInfo(props) {
         </li>
         <li>Description: {props.data.description}</li>
       </ul>
+      <p><a href="https://github.com/isabelklint/weatherreact">Open-source code</a> by <a href="https://www.linkedin.com/in/isabel-klint/">Isabel Klint</a>, <a href="https://www.shecodes.io/">SheCodes</a> class project.</p>
     </div>
   );
 }
